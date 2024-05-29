@@ -56,12 +56,12 @@ const features = [
     <ul
       class="mx-auto flex flex-col lg:flex-row text-left gap-3 items-start text-secondary mt-3">
       {
-        features.map((template) => (
+        features.map((content) => (
           <>
             <li class="flow-root col-span-full h-full ">
-              <a href={template.url}>
+              <a href={content.url}>
                 <div>
-                  <p class="italic shrink-0 text-xs ">{template.title}</p>
+                  <p class="italic shrink-0 text-xs ">{content.title}</p>
                 </div>
               </a>
             </li>

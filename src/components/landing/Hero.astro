@@ -1,9 +1,14 @@
+---
+import { Image } from 'astro:assets';
+import heroImage from 'public/sthenes-logo.png';
+---
+
 <section class="bg-primary">
   <div
     class="px-8 2xl:max-w-7xl mx-auto pt-12"
     data-aos="fade-up"
     data-aos-duration="2000">
-   <img src="public/sthenes-logo.png" alt="Sthenes logo">
+   <Image src={heroImage} alt="Sthenes logo" />
   </div>
   <div class="px-8 2xl:max-w-7xl mx-auto pb-12">
     <div class="mt-6 space-y-2">
